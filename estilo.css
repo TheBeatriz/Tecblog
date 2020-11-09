@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", sans-serif;
+	background: #e6e6e6;
+}
+
+#cabeçalho{
+	background-color: #ffd11a;
+	padding: 15px;
+	text-align: center;
+
+}
+
+#logo, #menu {
+	padding: 10px;
+}
+
+
+
+#area-principal{
+	
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+
+#postagens{
+	width: 660px;
+	background: white;
+	float: left;
+}
+
+#lateral {
+	width: 240px;
+	background: white;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	background: #CCC;
+	padding: 15px;
+
+}
+
+/* formatação do menu e seus links: a= links */
+
+a{
+	text-decoration: none;
+
+}
+
+/*seletores- só vai aplicar no link dentro do cabeçalho! */
+#cabeçalho a:link, #cabeçalho a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+	font-size: 2em;
+}
+
+a:hover{
+text-decoration: underline;
+background-color: #ffff99; 
+
+}
+
+h1{
+	color: #59b300;
+	font-size: 2.5em;
+}
+
+h2{
+	color: solid gray;
+}
+
+h3{
+	color: solid gray;
+	background: #CCC;
+	padding: 5px;
+}
+
+.branco{
+color: white;
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px;
+	display: block;
+}
